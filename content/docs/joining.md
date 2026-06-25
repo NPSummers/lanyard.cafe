@@ -1,6 +1,6 @@
 # joining the ring
 
-To join lanyard.cafe, open a pull request on the [GitHub repo](https://github.com/venqoi/lanyard.cafe) adding your site to `src/members.ts`.
+To join lanyard.cafe, open a pull request on the [GitHub repo](https://github.com/NPSummers/lanyard.cafe) adding your site to `src/members.ts`.
 
 ## requirements
 
