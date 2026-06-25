@@ -68,7 +68,7 @@ export const MEMBERS: Member[] = [
   {
     url: "https://c.stupid.cat",
     name: "clove",
-    buttonUrl: "https://c.stupid.cat/assets/88x31/doughmination.gif",
+    buttonUrl: "https://c.stupid.cat/assets/88x31/doughmination.png",
     discordId: "1464890289922641993",
   },
 ];
