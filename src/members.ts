@@ -71,6 +71,12 @@ export const MEMBERS: Member[] = [
     buttonUrl: "https://c.stupid.cat/assets/88x31/doughmination.gif",
     discordId: "1464890289922641993",
   },
+  {
+    url: "https://interverti.fr/",
+    name: "interverti",
+    buttonUrl: "https://cdn.interverti.fr/raw/interverti.fr.gif",
+    discordId: "674329017339346955",
+  },
 ];
 
 export function getMemberByUrl(url: string): Member | undefined {
