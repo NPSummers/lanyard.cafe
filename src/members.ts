@@ -75,7 +75,7 @@ export const MEMBERS: Member[] = [
     url: "https://chimera-realm.foo",
     name: "Chimera",
     discordId: "736465046317563915",
-  }
+  },
 ];
 
 export function getMemberByUrl(url: string): Member | undefined {
