@@ -4,8 +4,9 @@ To join lanyard.cafe, open a pull request on the [GitHub repo](https://github.co
 
 ## requirements
 
-- you must be a member of the [lanyard.rest](https://lanyard.rest) Discord community
+- you must be a member of the [lanyard](https://lanyard.rest) Discord community
 - your site must be a personal site (no commercial projects)
+- your site must not be ai slop (if it looks like it was made in 5 prompts)
 - add the embed widget somewhere visible on your site before submitting
 
 ## adding your entry
@@ -17,7 +18,7 @@ Open `src/members.ts` and add an object to the `MEMBERS` array:
   url: "https://yoursite.com",
   name: "your name",
   buttonUrl: "https://yoursite.com/88x31.gif", // optional
-  discordId: "your_discord_id",                 // optional, enables presence
+  discordId: "your_discord_id",                // optional, enables presence
 }
 ```
 
