@@ -66,6 +66,13 @@ export const MEMBERS: Member[] = [
     discordId: "1471598614676766826",
   },
   {
+    url: "https://milproject.xyz",
+    name: "mae",
+    buttonUrl:
+      "https://raw.githubusercontent.com/miliegoat/miliegoat.github.io/refs/heads/main/media/mae.gif",
+    discordId: "1125787079654260777",
+  },
+  {
     url: "https://c.stupid.cat",
     name: "clove",
     buttonUrl: "https://c.stupid.cat/assets/88x31/doughmination.gif",
