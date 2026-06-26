@@ -71,6 +71,11 @@ export const MEMBERS: Member[] = [
     buttonUrl: "https://c.stupid.cat/assets/88x31/doughmination.gif",
     discordId: "1464890289922641993",
   },
+  {
+  url: "https://bloxforlife.xyz",
+  name: "BloxForLife",
+  discordId: "1075335630353080340",
+},
 ];
 
 export function getMemberByUrl(url: string): Member | undefined {
