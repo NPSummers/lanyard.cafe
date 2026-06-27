@@ -7,7 +7,6 @@ To join lanyard.cafe, open a pull request on the [GitHub repo](https://github.co
 - you must be a member of the [lanyard.rest](https://lanyard.rest) Discord community (and have good standing with the community and be liked mostly by the other webring users)
 - your site must be a personal site (no commercial projects)
 - add the embed widget somewhere visible on your site before submitting
-- site cannot be ai slop
 - near future there will be a discord (and you may get a subdomain)
 
 ## adding your entry
