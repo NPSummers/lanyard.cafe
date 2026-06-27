@@ -79,6 +79,11 @@ export const MEMBERS: Member[] = [
     discordId: "1464890289922641993",
   },
   {
+    url: "https://chimera-realm.foo",
+    name: "Chimera",
+    discordId: "736465046317563915",
+  },
+  {
     url: "https://interverti.fr/",
     name: "interverti",
     buttonUrl: "https://cdn.interverti.fr/raw/interverti.fr.gif",
