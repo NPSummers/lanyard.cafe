@@ -102,6 +102,12 @@ export const MEMBERS: Member[] = [
   buttonUrl: "https://raw.githubusercontent.com/0c6a/0c6a.github.io/main/src/videos/♥.gif",
   discordId: "1491137614525370589",                 
   },
+  {
+  url: "https://nynele.top",
+  name: "nynele",
+  buttonUrl: "https://raw.githubusercontent.com/Nynele/nynele/main/nugget.gif",
+  discordId: "799251427839049818",                 
+  }
 ];
 
 export function getMemberByUrl(url: string): Member | undefined {
