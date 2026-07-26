@@ -41,12 +41,6 @@ export const MEMBERS: Member[] = [
     discordId: "480900607738380298",
   },
   {
-    url: "https://kie.ac",
-    name: "kie.ac",
-    buttonUrl: "https://kie.ac/88x31/button.png",
-    discordId: "673477059904929802",
-  },
-  {
     url: "https://nichind.dev",
     name: "nichind",
     buttonUrl: "https://nichind.dev/88x31.gif",
