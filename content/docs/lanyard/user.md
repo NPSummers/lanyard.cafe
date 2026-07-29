@@ -54,4 +54,5 @@ But as this doesn't cover all badges, and doesn't provide the icon hash, it is p
 | `1 << 22` | `ACTIVE_DEVELOPER` | User is an Active Developer |
 
 (from https://discord.com/developers/docs/resources/user)
+###
 <small>written by [Schuh](https://schuh.wtf/)</small>
