@@ -67,12 +67,6 @@ export const MEMBERS: Member[] = [
     discordId: "1125787079654260777",
   },
   {
-    url: "https://c.stupid.cat",
-    name: "clove",
-    buttonUrl: "https://c.stupid.cat/assets/88x31/doughmination.png",
-    discordId: "1464890289922641993",
-  },
-  {
     url: "https://chimera-realm.foo",
     name: "Chimera",
     buttonUrl: "https://raw.githubusercontent.com/miliegoat/miliegoat.github.io/refs/heads/main/media/Untitled.gif",
