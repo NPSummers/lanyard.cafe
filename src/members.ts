@@ -63,13 +63,13 @@ export const MEMBERS: Member[] = [
     url: "https://milproject.xyz",
     name: "mae",
     buttonUrl:
-      "https://raw.githubusercontent.com/miliegoat/miliegoat.github.io/refs/heads/main/media/maemae.gif",
+      "https://raw.githubusercontent.com/miliegoat/btuoon/refs/heads/main/maemae.gif",
     discordId: "1125787079654260777",
   },
   {
     url: "https://chimera-realm.foo",
     name: "Chimera",
-    buttonUrl: "https://raw.githubusercontent.com/miliegoat/miliegoat.github.io/refs/heads/main/media/untitled.gif",
+    buttonUrl: "https://raw.githubusercontent.com/miliegoat/btuoon/refs/heads/main/untitled.gif",
     discordId: "736465046317563915",
   },
   {
