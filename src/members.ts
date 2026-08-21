@@ -99,7 +99,7 @@ export const MEMBERS: Member[] = [
   {
   url: "https://arshnah.in",
   name: "Arsh.",
-  buttonUrl: "https://arshnah.in/larp.png",
+  buttonUrl: "https://arshnah.in/cat.gif",
   discordId: "300137175238836225",
 }
 
