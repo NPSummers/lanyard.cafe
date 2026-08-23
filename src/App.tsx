@@ -49,6 +49,7 @@ export function App() {
   const [presences, setPresences] = useState<Record<string, Presence | null>>(
     {},
   );
+  const [avatarFails, setAvatarFails] = useState<Set<string>>(new Set());
 
   useEffect(() => {
     fetch("/api/ring")
@@ -119,11 +120,24 @@ export function App() {
     return `@${user.username}`;
   }
 
+  function buildAvatarUrl(user: LanyardUser, animated: boolean): string | null {
+    if (!user.avatar) return null;
+    const ext = animated ? "webp" : "png";
+    const params = animated ? "size=96&animated=true" : "size=96";
+    return `https://cdn.discordapp.com/avatars/${user.id}/${user.avatar}.${ext}?${params}`;
+  }
+
   function getAvatarUrl(m: Member): string | null {
     const user = getPresence(m)?.discord_user;
-    if (!user?.avatar) return null;
-    const ext = user.avatar.startsWith("a_") ? "gif" : "png";
-    return `https://cdn.discordapp.com/avatars/${user.id}/${user.avatar}.${ext}?size=96`;
+    const primary = user ? buildAvatarUrl(user, user.avatar?.startsWith("a_") ?? false) : null;
+    if (!primary) return null;
+    if (!avatarFails.has(primary)) return primary;
+    const fallback =
+      primary.includes("animated=true") && user
+        ? buildAvatarUrl(user, false)
+        : null;
+    if (fallback && !avatarFails.has(fallback)) return fallback;
+    return null;
   }
 
   function getStatus(m: Member): DiscordStatus {
@@ -254,6 +268,14 @@ export function App() {
                           className="w-10 h-10 rounded-lg object-cover"
                           src={avatar}
                           alt=""
+                          onError={() => {
+                            setAvatarFails((prev) => {
+                              if (prev.has(avatar)) return prev;
+                              const next = new Set(prev);
+                              next.add(avatar);
+                              return next;
+                            });
+                          }}
                         />
                       ) : (
                         <div className="w-10 h-10 rounded-lg bg-cream-dark flex items-center justify-center font-serif text-base text-text-light">
