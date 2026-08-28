@@ -11,7 +11,7 @@ export const MEMBERS: Member[] = [
     url: "https://schuh.wtf",
     name: "schuh",
     buttonUrl:
-      "https://raw.githubusercontent.com/NPSummers/NPSummers/refs/heads/main/schuh.gif",
+      "https://akryst.moe/88x31/schuh.gif",
     discordId: "492707412504215552",
   },
   {
