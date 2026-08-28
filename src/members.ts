@@ -101,6 +101,12 @@ export const MEMBERS: Member[] = [
     name: "Sxxi?",
     buttonUrl: "https://kuromi.foo/88x31.gif",
     discordId: "586802340607164417",
+  },
+    {
+    url: "https://arshnah.in",
+    name: "Arsh",
+    buttonUrl: "https://arshnah.in/cat.gif",
+    discordId: "300137175238836225",
   }
 ];
 
