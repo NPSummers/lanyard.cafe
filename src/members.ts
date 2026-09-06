@@ -28,13 +28,6 @@ export const MEMBERS: Member[] = [
     discordId: "1368371401546928148",
   },
   {
-    url: "https://moli.codes",
-    name: "f1sh",
-    buttonUrl:
-      "https://raw.githubusercontent.com/NPSummers/NPSummers/refs/heads/main/doesnt_want_to_host_his_own_gif_moli.gif",
-    discordId: "470904884946796544",
-  },
-  {
     url: "https://plxne.com",
     name: "Ranger",
     buttonUrl: "https://files.plxne.com/raw/nRH5kX.gif",
