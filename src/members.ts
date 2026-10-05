@@ -88,6 +88,12 @@ export const MEMBERS: Member[] = [
     name: "superstar miu",
     buttonUrl: "https://miu.codes/88x31.gif",
     discordId: "586802340607164417",
+  },
+  {
+    url: "https://chessie.cat",
+    name: "chessie",
+    buttonUrl: "https://chessie.cat/buttons/chessie-cat.gif",
+    discordId: "699600164180066376",
   }
 ];
 
