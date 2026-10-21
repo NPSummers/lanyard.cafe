@@ -78,6 +78,12 @@ export const MEMBERS: Member[] = [
     discordId: "1491137614525370589",                  
   },
   {
+    url: "https:/pinkytooth.lol",
+    name: "jello",
+    buttonUrl: "https://pinkytooth.lol/squidgame.png",
+    discordId: "1554173672946667604",                  
+  },
+  {
     url: "https://nynele.top",
     name: "nynele",
     buttonUrl: "https://raw.githubusercontent.com/Nynele/nynele/main/nugget.gif",
