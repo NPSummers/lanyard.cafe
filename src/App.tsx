@@ -25,7 +25,7 @@ interface RingData {
   members: Member[];
 }
 
-const pagecount = 5;
+const pagecount = 10;
 
 const STATUS_COLORS: Record<DiscordStatus, string> = {
   online: "#4ade80",
