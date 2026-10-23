@@ -114,7 +114,7 @@ export const MEMBERS: Member[] = [
     discordId: "1491993293519851570",
  },
  {
-    url: "https:/pinkytooth.lol",
+    url: "https://pinkytooth.lol",
     name: "jello",
     buttonUrl: "https://pinkytooth.lol/squidgame.png",
     discordId: "1554173672946667604",                  
