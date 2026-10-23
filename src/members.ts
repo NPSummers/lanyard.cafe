@@ -47,12 +47,6 @@ export const MEMBERS: Member[] = [
     discordId: "647814047210930223",
   },
   {
-    url: "https://assumi.ng",
-    name: "catcatcat",
-    buttonUrl: "https://assumi.ng/assets/88x31/assuming.gif",
-    discordId: "1471598614676766826",
-  },
-  {
     url: "https://milproject.xyz",
     name: "mae",
     buttonUrl:
