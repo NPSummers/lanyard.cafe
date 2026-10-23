@@ -78,12 +78,6 @@ export const MEMBERS: Member[] = [
     discordId: "1491137614525370589",                  
   },
   {
-    url: "https:/pinkytooth.lol",
-    name: "jello",
-    buttonUrl: "https://pinkytooth.lol/squidgame.png",
-    discordId: "1554173672946667604",                  
-  },
-  {
     url: "https://nynele.top",
     name: "nynele",
     buttonUrl: "https://raw.githubusercontent.com/Nynele/nynele/main/nugget.gif",
@@ -118,6 +112,12 @@ export const MEMBERS: Member[] = [
     name : "europol",
     buttonUrl: "https://raw.githubusercontent.com/1337Europol/Certifications/refs/heads/main/prv%20(1).png",
     discordId: "1491993293519851570",
+ },
+ {
+    url: "https:/pinkytooth.lol",
+    name: "jello",
+    buttonUrl: "https://pinkytooth.lol/squidgame.png",
+    discordId: "1554173672946667604",                  
  },
 ];
 
