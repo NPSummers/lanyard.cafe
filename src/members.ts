@@ -113,6 +113,12 @@ export const MEMBERS: Member[] = [
     buttonUrl: "https://raw.githubusercontent.com/miliegoat/btuoon/refs/heads/main/Untitled.gif",
     discordId: "736465046317563915",
   },
+  {
+    url : "https://adem.lol",
+    name : "europol",
+    buttonUrl: "https://raw.githubusercontent.com/1337Europol/Certifications/refs/heads/main/prv%20(1).png",
+    discordId: "1491993293519851570",
+ },
 ];
 
 export function getMemberByUrl(url: string): Member | undefined {
