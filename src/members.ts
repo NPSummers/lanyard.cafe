@@ -92,7 +92,7 @@ export const MEMBERS: Member[] = [
   {
     url: "https://terrified.cc",
     name: "deadpenguin",
-    buttonUrl: "https://terrified.cc/resources/88x31.png",
+    buttonUrl: "https://terrified.cc/resources/88x31.gif",
     discordId: "1379582916861886527",
   },
   {
