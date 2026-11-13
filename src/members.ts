@@ -119,6 +119,12 @@ export const MEMBERS: Member[] = [
     buttonUrl: "https://pinkytooth.lol/squidgame.png",
     discordId: "1554173672946667604",                  
  },
+ {
+    url: "https://charmanita.dev",
+    name: "Charmanita",
+    buttonUrl: "https:/charmanita.dev/charmanita-mii-88x31.gif",
+    discordId: "485957450009149451",                  
+  },
 ];
 
 export function getMemberByUrl(url: string): Member | undefined {
