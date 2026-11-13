@@ -22,12 +22,6 @@ export const MEMBERS: Member[] = [
     discordId: "1498977251134279900",
   },
   {
-    url: "https://akryst.moe",
-    name: "akryst",
-    buttonUrl: "https://akryst.moe/88x31/akryst.gif",
-    discordId: "1368371401546928148",
-  },
-  {
     url: "https://plxne.com",
     name: "Ranger",
     buttonUrl: "https://files.plxne.com/raw/nRH5kX.gif",
