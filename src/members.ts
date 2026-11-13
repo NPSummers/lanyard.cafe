@@ -116,7 +116,7 @@ export const MEMBERS: Member[] = [
  {
     url: "https://charmanita.dev",
     name: "Charmanita",
-    buttonUrl: "https:/charmanita.dev/charmanita-mii-88x31.gif",
+    buttonUrl: "https://charmanita.dev/charmanita-mii-88x31.gif",
     discordId: "485957450009149451",                  
   },
 ];
